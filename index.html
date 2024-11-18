@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>Mie Ayam Bang toyib</h2>
+        <p>mie ayam yang lezat akan gizi</p>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <div class="slider-container">
+            <img src="./mie 1.jpg" alt="Image 1" class="slide" />
+            <img src="./mie 2.jpg" alt="Image 2" class="slide" />
+            <img src="./mie 3.jpg" alt="Image 3" class="slide" />
+          </div>
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">History</button>
+            <button class="tab-btn" data-id="vision">Deskripsi</button>
+            <button class="tab-btn" data-id="goals">Location</button>
+          </div>
+          <!-- Tambahkan tombol toggle untuk mode gelap/terang -->
+          <button id="theme-toggle">mode lam</button>
+
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+              <h4>history</h4>
+              <p>
+                Mie Ayam Bang Toyib adalah salah satu warung mie ayam legendaris
+                yang berasal dari Indonesia, yang terkenal dengan rasa mie ayam
+                yang khas dan keunikan cara penyajiannya. Mie ayam ini dikenal
+                luas di kalangan masyarakat Jakarta dan sekitarnya, meskipun
+                kisah lengkap tentang asal-usulnya tidak sepenuhnya
+                terdokumentasi dengan jelas. Namun, mie ayam Bang Toyib tetap
+                menjadi ikon kuliner yang banyak dicari.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="vision">
+              <h4>Deksripsi</h4>
+              <p>
+                Mie Ayam Bang Toyib adalah salah satu warung mie ayam legendaris
+                yang terkenal di Jakarta, Indonesia. Dikenal dengan rasa mie
+                yang kenyal, kuah kaldu ayam yang gurih, dan potongan ayam yang
+                melimpah, mie ayam Bang Toyib telah mencuri hati banyak
+                penggemarnya. Sejak pertama kali dibuka pada 1990-an oleh
+                pemilik bernama Toyib, warung ini dengan cepat mendapatkan
+                popularitas berkat cita rasa yang khas dan harga yang
+                terjangkau.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <h4>Location</h4>
+              <p>
+                Mie Ayam Bang Toyib – Jakarta Pusat
+
+                Alamat: Jl. Kebon Kacang Raya No. 15, Jakarta Pusat, DKI Jakarta
+                Jam Buka: Setiap hari, mulai pukul 10.00 WIB hingga 22.00 WIB
+                Fasilitas: Tempat parkir tersedia, bisa dine-in dan take-away
+                
+              </p>
+            </div>
+
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
